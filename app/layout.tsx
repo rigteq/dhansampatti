@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Paisabazaar: India's #1 Loans & Cards Platform",
+  title: "Dhansampatti Finance: India's #1 Loans & Cards Platform",
   description: "Apply for Credit Cards, Personal Loans, Home Loans & more. Check your Free Credit Score.",
   icons: {
     icon: '/favicon.ico',
