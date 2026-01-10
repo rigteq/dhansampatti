@@ -65,14 +65,14 @@ export default function Footer() {
                                 <Phone className="shrink-0 w-5 h-5 text-brand-orange mt-0.5" />
                                 <div>
                                     <span className="block text-xs uppercase font-bold text-gray-600 mb-1">Call Us</span>
-                                    <a href="tel:18001239999" className="hover:text-white transition-colors font-medium">1800-123-9999</a>
+                                    <a href="tel:18001239999" className="hover:text-white transition-colors font-medium">79822 88552</a>
                                 </div>
                             </li>
                             <li className="flex gap-3 items-start">
                                 <MapPin className="shrink-0 w-5 h-5 text-brand-orange mt-0.5" />
                                 <div>
                                     <span className="block text-xs uppercase font-bold text-gray-600 mb-1">Headquarters</span>
-                                    <span className="leading-relaxed">Tower A, World Trade Center, Mumbai - 400001</span>
+                                    <span className="leading-relaxed">504/3A/4, GALI NO.- 10, PANDEV ROAD, VISHWAS NAGAR, East Delhi, 110032</span>
                                 </div>
                             </li>
                         </ul>

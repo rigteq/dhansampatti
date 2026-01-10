@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from 'react';
+import Link from 'next/link';
 import { ArrowRight, Calculator } from 'lucide-react';
 import Image from 'next/image';
 
@@ -52,12 +53,12 @@ export default function Hero() {
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                            <button className="px-8 py-4 bg-brand-orange text-white rounded-xl font-bold text-lg shadow-lg hover:bg-orange-600 hover:shadow-orange-500/30 transition-all transform hover:-translate-y-1 flex items-center justify-center gap-2">
+                            <a href="#eligibility" className="px-8 py-4 bg-brand-orange text-white rounded-xl font-bold text-lg shadow-lg hover:bg-orange-600 hover:shadow-orange-500/30 transition-all transform hover:-translate-y-1 flex items-center justify-center gap-2">
                                 Check Eligibility <ArrowRight size={20} />
-                            </button>
-                            <button className="px-8 py-4 bg-white text-brand-purple border-2 border-brand-purple/10 rounded-xl font-bold text-lg hover:bg-brand-purple hover:text-white transition-all">
+                            </a>
+                            <Link href="/contact" className="px-8 py-4 bg-white text-brand-purple border-2 border-brand-purple/10 rounded-xl font-bold text-lg hover:bg-brand-purple hover:text-white transition-all text-center">
                                 Talk to Expert
-                            </button>
+                            </Link>
                         </div>
 
                         <div className="mt-10 flex items-center justify-center lg:justify-start gap-8 text-sm font-semibold text-gray-500">
