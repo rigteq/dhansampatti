@@ -29,8 +29,7 @@ export default function ContactPage() {
                         <div className="p-8 bg-brand-grey rounded-3xl">
                             <h3 className="text-xl font-bold text-brand-purple mb-4">Visit Us</h3>
                             <p className="text-gray-600">
-                                123, Finance Plaza, Bandra Kurla Complex,<br />
-                                Mumbai, Maharashtra - 400051
+                                504/3A/4, GALI NO.- 10, PANDEV ROAD, VISHWAS NAGAR, East Delhi, 110032
                             </p>
                         </div>
                         <div className="p-8 bg-brand-grey rounded-3xl">
